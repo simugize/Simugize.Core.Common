@@ -20,14 +20,10 @@ jobs:
     # Install dependencies
     - name: Install dependencies
       run: dotnet restore
-
-    # Increment version suffix
-    - name: Increment version suffix
-      run: echo "NEW_VERSION_SUFFIX=ci-$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-
+      
     # Build and pack
     - name: Build and pack
-      run: dotnet pack --no-restore -c Release /p:VersionSuffix=${{ env.NEW_VERSION_SUFFIX }}
+      run: dotnet pack --no-restore -c Release 
 
     # Publish the package to NuGet
     - name: Test key

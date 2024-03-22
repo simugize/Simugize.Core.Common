@@ -4,11 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <VersionPrefix>0.0.0</VersionPrefix>
-    <VersionSuffix>-0</VersionSuffix>
-    <PackageId>Simguize.Core.Common</PackageId>
-    <Authors>Simguize</Authors>
-    <Company>Simugize LLC</Company>
+    <Version>0.0.2</Version>
+    <PackageId>Simugize.Core.Common</PackageId>
+    <Authors>simugize</Authors>
+    <Company>simugizellc</Company>
     <Description>The Simugize Common Library is an open-source collection of utilities and components for building applications on the Simugize platform, requiring attestation in commercial use.</Description>
   </PropertyGroup>
 
