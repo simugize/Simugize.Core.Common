@@ -10,11 +10,11 @@ namespace Simugize.Core.Common
     {
         public int? RecordCount { get; set; }
 
-        public int? StartAt { get; set; };
+        public int? StartAt { get; set; }
 
-        public int? FetchCount { get; set; };
+        public int? FetchCount { get; set; }
 
-        public T? Records { get; set; };
+        public T? Records { get; set; }
 
         public ResultSet(T? records = default(T), int? recordCount = null, int? startAt = null, int? fetchCount = null)
         {
